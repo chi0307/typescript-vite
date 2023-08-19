@@ -1,0 +1,21 @@
+{
+  "name": "typescript-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "prestart": "npm run build",
+    "start": "node dist/index.js",
+    "poststart": "rm -rf dist/"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "prettier": "3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
